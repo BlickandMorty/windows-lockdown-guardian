@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "policyName": "Permanent focused hard gates",
+  "mode": "Permanent",
+  "installation": {
+    "root": "C:\\ProgramData\\CommunityLockdownGuardian",
+    "taskPrefix": "CommunityLockdownGuardian",
+    "reapplyMinutes": 60
+  },
+  "blockedDomains": [
+    "youtube.com",
+    "youtu.be",
+    "youtube-nocookie.com",
+    "googlevideo.com",
+    "ytimg.com",
+    "x.com",
+    "twitter.com",
+    "t.co",
+    "twimg.com",
+    "spotify.com",
+    "scdn.co",
+    "soundcloud.com",
+    "sndcdn.com",
+    "music.apple.com",
+    "tidal.com",
+    "deezer.com",
+    "audiomack.com",
+    "bandcamp.com",
+    "pandora.com"
+  ],
+  "adultDomains": [],
+  "blockedExecutables": [
+    "Spotify.exe",
+    "AppleMusic.exe",
+    "TIDAL.exe",
+    "SoundCloud.exe",
+    "Audiomack.exe"
+  ],
+  "allowDomains": [
+    "qobuz.com",
+    "open.qobuz.com",
+    "microsoft.com",
+    "office.com",
+    "github.com"
+  ],
+  "browserPolicy": {
+    "chrome": true,
+    "edge": true
+  },
+  "optionalDns": {
+    "enabled": false,
+    "provider": "Manual denylist export",
+    "notes": "No API key or profile identifier is stored by this project."
+  }
+}
+
